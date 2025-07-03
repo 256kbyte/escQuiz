@@ -36,19 +36,26 @@
                 margin: 0 auto;
             }
 
+        
+
         /* Hero Section */
         .hero {
             text-align: center;
             padding: 20px 0px;
         }
-
             .hero h1 {
-                font-size: 24px;
+                font-size: clamp(14px, 4vw, 24px);
                 font-weight: 1200;
                 max-width: 920px;
                 margin: 0 auto;
                 line-height: 1.6;
+
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
             }
+
+        
 
         .card {
             background-color: #E0E0E0;
@@ -179,6 +186,7 @@
         }
         */
 
+        
     .business-card {
       margin-top: 80px;
       margin-bottom: 80px;
