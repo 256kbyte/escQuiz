@@ -65,8 +65,10 @@
         }
         
             .hero2 img {
-                height: 80vh;   /* 화면 높이의 80% */
-                width: auto;    /* 가로는 비율 유지 */
+                max-height: 80vh;   /* 세로는 화면의 80%까지만 */
+                max-width: 100%;    /* 가로는 화면 폭을 넘지 않게 */
+                height: auto;
+                width: auto;
                 object-fit: contain; /* 잘리지 않고 다 보이게 */
             }
         
@@ -377,6 +379,7 @@
 
 </body>
 </html>
+
 
 
 
