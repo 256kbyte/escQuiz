@@ -60,14 +60,14 @@
 
         .hero2 {
           height: 80vh;           
-          width: 100%;
+          width: auto;
           overflow: hidden;
         }
         
             .hero2 img {
-              height: 100%;
-              width: 100%;
-              object-fit: cover;      
+                height: 80vh;   /* 화면 높이의 80% */
+                width: auto;    /* 가로는 비율 유지 */
+                object-fit: contain; /* 잘리지 않고 다 보이게 */
             }
         
 
@@ -377,5 +377,6 @@
 
 </body>
 </html>
+
 
 
